@@ -1,0 +1,78 @@
+.angle-down-style {
+    width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    mask: url('~@/assets/svg/angle-down-solid.svg') no-repeat center / contain;
+    -webkit-mask: url('~@/assets/svg/angle-down-solid.svg') no-repeat center / contain;
+    background-color: var(--atola-common-text-01);
+}
+
+.angle-down-style-02 {
+    mask: url('~@/assets/svg/angle-down-solid.svg') no-repeat center / contain;
+    -webkit-mask: url('~@/assets/svg/angle-down-solid.svg') no-repeat center / contain;
+    background-color: var(--atola-common-text-01);
+}
+
+.swap-settings-style {
+    width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    mask: url('~@/assets/svg/swap-settings.svg') no-repeat center / contain;
+    -webkit-mask: url('~@/assets/svg/swap-settings.svg') no-repeat center / contain;
+    background-color: var(--atola-common-text-02);
+}
+
+.info-icon-style {
+    mask: url('~@/assets/svg/info.svg') no-repeat center / contain;
+    -webkit-mask: url('~@/assets/svg/info.svg') no-repeat center / contain;
+    background-color: var(--atola-common-text-01);
+}
+
+.info-icon-style:hover {
+    background-color: var(--atola-common-text-02);
+    cursor: pointer;
+}
+
+.route-modal-style {
+    mask: url('~@/assets/svg/fullscreen-route.svg') no-repeat center / contain;
+    -webkit-mask: url('~@/assets/svg/fullscreen-route.svg') no-repeat center / contain;
+    background-color: var(--atola-common-text-01);
+}
+
+.refresh-icon {
+    mask: url('~@/assets/svg/fresh.svg') no-repeat center / contain;
+    -webkit-mask: url('~@/assets/svg/fresh.svg') no-repeat center / contain;
+    background-color: var(--atola-common-text-01);
+}
+
+.plus-icon {
+    mask: url('~@/assets/svg/plus.svg') no-repeat center / contain;
+    -webkit-mask: url('~@/assets/svg/plus.svg') no-repeat center / contain;
+    background-color: var(--atola-common-text-01);
+}
+
+.settings-icon {
+    mask: url('~@/assets/svg/settings.svg') no-repeat center / contain;
+    -webkit-mask: url('~@/assets/svg/settings.svg') no-repeat center / contain;
+    background-color: var(--atola-common-text-01);
+}
+
+.candle_chart-icon {
+    mask: url('~@/assets/svg/candle_chart.svg') no-repeat center / contain;
+    -webkit-mask: url('~@/assets/svg/candle_chart.svg') no-repeat center / contain;
+    background-color: var(--atola-common-text-01);
+}
+
+.line_chart-icon {
+    mask: url('~@/assets/svg/line_chart.svg') no-repeat center / contain;
+    -webkit-mask: url('~@/assets/svg/line_chart.svg') no-repeat center / contain;
+    background-color: var(--atola-common-text-01);
+}
+
+.min-h-54 {
+    min-height: 54px;
+}
+
+::selection {
+    background: white;
+}

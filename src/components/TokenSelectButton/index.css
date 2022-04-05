@@ -1,0 +1,21 @@
+.token-select-button {
+    padding: 8px;
+}
+.token-select-button:hover {
+    border-radius: 16px;
+    background-color: white;
+}
+
+.title-token-image {
+    color: var(--atola-common-text-01);
+    height: 100%;
+}
+
+
+.title-token {
+    color: var(--atola-common-text-02);
+}
+
+.title-token span {
+    margin-top: 3px;
+}

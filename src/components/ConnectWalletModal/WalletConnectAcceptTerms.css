@@ -1,0 +1,31 @@
+.accept-term {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-column-gap: 12px;
+}
+.wallet-connect-accept {
+    line-height: 30px;
+}
+.idex-number {
+    display: block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #dfebff;
+    color: #7e96b8;
+}
+
+.text-blue {
+    color: #5599ff;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+a:focus-visible {
+    outline: none;
+}

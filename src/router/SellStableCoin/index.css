@@ -1,0 +1,161 @@
+
+.main-body {
+    background-color: white;
+    padding: 16px;
+    border-radius: 24px;
+}
+
+.modal-open{
+    overflow: hidden;
+}
+
+.swap-direction-arrow {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--atola-button-bg-01);
+    box-shadow: var(--atola-btn-shadow-01);
+    text-align: center;
+    transition: transform .3s;
+}
+
+.swap-settings-button:hover {
+    background-color: var(--atola-bg-01);
+}
+
+.swap-direction-arrow-container {
+    text-align: center;
+    margin-top: -7px;
+    margin-bottom: -12px;
+}
+.swap-direction-arrow:hover {
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.swap-direction-arrow-svg {
+    mask: url('~@/assets/svg/arrow-down-01.svg') no-repeat center / contain;
+    -webkit-mask: url('~@/assets/svg/arrow-down-01.svg') no-repeat center / contain;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background-color: var(--atola-common-text-01);
+}
+
+.background-path {
+    fill: var(--atola-border-02);
+}
+
+.quote-info {
+    padding: 16px;
+    width: 100%;
+}
+
+.layout-table {
+    font-size: 18px;
+    line-height: 15px;
+    color: var(--atola-common-text-01);
+}
+.layout-table:hover span {
+    color: var(--atola-common-text-02);
+}
+.layout-table:hover .angle-down-style-02 {
+    background-color: var(--atola-common-text-02);
+}
+
+.layout-table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.expand-button {
+    color: var(--atola-common-text-01);
+}
+
+.info-span-bg {
+    color: var(--atola-common-text-01);
+}
+
+.route-modal:hover span{
+    color: var(--atola-common-text-02);
+    cursor: pointer;
+}
+
+.route-modal:hover .route-modal-style {
+    background-color: var(--atola-common-text-02);
+    cursor: pointer;
+}
+
+/* .flat-path::before {
+    transform: rotate(-45deg);
+    content: " ";
+    position: absolute;
+    height: 7px;
+    width: 2px;
+    top: 1px;
+    right: -8px;
+    border-radius: 3px;
+    background-color: currentColor;
+}
+
+.flat-path::after {
+    top: 5px;
+    transform: rotate(45deg);
+    content: " ";
+    position: absolute;
+    height: 7px;
+    width: 2px;
+    top: 1px;
+    right: -8px;
+    border-radius: 3px;
+    background-color: currentColor;
+} */
+
+.gas-refund {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin-left: 8px;
+    background: var(--atola-gradient-01);
+}
+.gas-refund:hover {
+    cursor: pointer;
+}
+
+.gas-refund-value {
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 500;
+    color: var(--atola-common-text-03);
+    white-space: nowrap;
+}
+
+.primary-action-button {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--atola-button-bg-01) !important;
+    text-align: center;
+    text-decoration: none !important;
+    background: var(--atola-common-btn-gradient-bg-01);
+    border-radius: 12px;
+    margin-top: 8px;
+}
+
+
+.primary-action-button span {
+    display: block;
+    padding: 16px 0;
+}
+
+.primary-action-button:hover {
+    opacity: 0.9;
+}

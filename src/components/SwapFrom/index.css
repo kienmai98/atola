@@ -1,0 +1,87 @@
+.swap-from {
+    background-color: var(--atola-bg-01)
+}
+
+.swap-title {
+    color: var(--atola-common-text-01)
+}
+.swap-title:hover {
+    color: black
+}
+
+.swap-select-token {
+    margin-left: -8px;
+}
+
+.button-select-token {
+    padding: 6px 5px 6px 5px;
+}
+
+.token-name {
+    white-space: nowrap;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 4px;
+    color: var(--atola-common-text-01);
+}
+
+.token-usd-price {
+    color: var(--atola-common-text-01);
+    text-align: right;
+    white-space: nowrap;
+}
+
+.token-select-row {
+    padding: 6px 0px 6px 8px;
+    margin-left: -8px;
+    border-radius: 12px;
+}
+
+.title-token {
+    color: var(--atola-common-text-02);
+}
+
+.title-token span {
+    margin-top: 3px;
+}
+
+.input-from {
+    margin-left: auto;
+    order: 2;
+}
+
+.title-token-image {
+    color: var(--atola-common-text-01);
+    height: 100%;
+}
+
+.token-select-from-button {
+    padding: 8px;
+}
+.token-select-from-button:hover {
+    border-radius: 16px;
+    background-color: white;
+}
+
+.title-token-image {
+    color: var(--atola-common-text-01);
+    height: 100%;
+}
+
+
+.title-token {
+    color: var(--atola-common-text-02);
+}
+
+.title-token span {
+    margin-top: 3px;
+}
+
+.input-token-number {
+    border: transparent none 0px;
+}
+.input-token-number:focus {
+    box-shadow: transparent 0px 0px 0px 0px !important;
+    
+}

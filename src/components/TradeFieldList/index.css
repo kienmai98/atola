@@ -1,0 +1,189 @@
+.trade-rate-main {
+    background-color: var(--atola-bg-01)
+}
+
+.trade-rate-title {
+    color: var(--atola-common-text-01)
+}
+.trade-rate-title:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.trade-rate-select-token {
+    margin-left: -8px;
+}
+.expire-content-wrap {
+    width: 100%;
+    height: 34px;
+    border: none;
+    color: var(--atola-common-text-06);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+.expire-content {
+    color: var(--atola-common-text-01);
+    text-align: right;
+    white-space: nowrap;
+}
+
+.input-token-number {
+    border: transparent none 0px;
+}
+.input-token-number:focus {
+    box-shadow: transparent 0px 0px 0px 0px !important;
+    
+}
+
+.input-address-token {
+
+}
+
+.input-address-token::after {
+    transition-property: box-shadow;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    content: '';
+    position: absolute;
+    top: 0; text-align: right;
+    white-space: nowrap;
+    bottom: 0;
+    border-radius: inherit;
+    border: 1px solid currentColor;
+    pointer-events: none;
+    color: transparent;
+}
+
+.input-address-token::selection {
+    background: rgba(47,138,245,.4);
+}
+
+.address-content {
+    font-size: 16px;
+    min-height: 20px;
+    padding: 0 !important;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    top: 0px;
+    left: 0px;
+}
+
+.address-content-placeholder {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    overflow: hidden;
+}
+
+.address-content-placeholder::after {
+    content: '';
+    margin-right: -.25rem;
+}
+
+.address-content-placeholder::selection {
+    background: rgba(47,138,245,.4);
+}
+
+.address-content-placeholder-wrap {
+    flex: 1;
+    min-width: 0;
+    padding-right: .25rem;
+    -webkit-padding-end: .25rem;
+    padding-inline-end: .25rem;
+    -webkit-padding-start: 0;
+    padding-inline-start: 0;
+    text-align: left;
+}
+
+/* .address-content-placeholder-wrap {
+    transition-property: color, background;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+} */
+.placeholder {
+    font-size: 20px !important;
+    color: rgba(108, 134, 173, .55) !important;
+
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 100%;
+    user-select: none;
+    pointer-events: none;
+}
+
+.placeholder_raised {
+    opacity: 0;
+    transform: translateY(-.625rem);
+}
+
+.text-gray {
+    color: #7E96B8;
+}
+
+.t-hosted {
+    display: block;
+    border-radius: inherit;
+}
+.t-hosted .wrapper {
+    border-radius: inherit;
+    height: inherit;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.select-expire {
+    text-align: right;
+    position: relative;
+}
+
+.select-expire-box {
+    position: absolute;
+    background-color: white;
+    top: 30px;
+    right: 0px;
+    border-radius: 18px;
+    font-size: large;
+    text-align: center;
+    z-index: 1000;
+}
+
+.trade-arrow {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    /* border-radius: 50%; */
+    /* background-color: var(--atola-button-bg-01); */
+    /* box-shadow: var(--atola-btn-shadow-01); */
+    text-align: center;
+    transition: transform .3s;
+    text-align: center;
+}
+
+.swap-settings-button:hover {
+    background-color: var(--atola-bg-01);
+}
+
+.swap-direction-arrow-container {
+    text-align: center;
+    margin-top: -7px;
+    margin-bottom: -12px;
+}
+.trade-arrow:target {
+    transform: rotate(180deg);
+    cursor: pointer;
+}

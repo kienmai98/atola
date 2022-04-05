@@ -1,0 +1,41 @@
+.trade-rate-main {
+    background-color: var(--atola-bg-01)
+}
+
+.trade-rate-title {
+    color: var(--atola-common-text-01)
+}
+.trade-rate-title:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.trade-rate-select-token {
+    margin-left: -8px;
+}
+.change-rate {
+    width: 50px;
+    height: 34px;
+    text-align: center;
+    border: none;
+    background: var(--atola-button-bg-03);
+    color: var(--atola-common-text-06);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+.trade-token-rate-change {
+    color: var(--atola-common-text-01);
+    text-align: right;
+    white-space: nowrap;
+}
+
+.input-token-number {
+    border: transparent none 0px;
+}
+.input-token-number:focus {
+    box-shadow: transparent 0px 0px 0px 0px !important;
+    
+}
+

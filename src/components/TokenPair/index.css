@@ -1,0 +1,24 @@
+
+.pair-wrap {
+    border-radius: inherit;
+    height: inherit;
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.tokens-item {
+    display: flex;
+    line-height: 24px;
+}
+
+.tokens-icon {
+    margin: 0 8px -4px 0;
+    display: flex;
+    line-height: 24px;
+    width: auto;
+}
+
+.tokens-icon:nth-child(2n) {
+    margin-left: -8px;
+}

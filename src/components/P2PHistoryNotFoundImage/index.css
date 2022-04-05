@@ -1,0 +1,34 @@
+.card-list {
+    display: block;
+    border-radius: 0 0 16px 16px;
+    overflow: hidden;
+    border: 1px solid #E3E7EE;
+    background: #FFFFFF;
+}
+
+.nothing-found-screen {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.image-area {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #6C86AD;
+}
+
+.nothing-found-image {
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 26px;
+    height: 240px;
+    width: 240px;
+    background-image: url('@/assets/images/empty-list-light-theme-x2.png');
+    background-size: contain;
+}

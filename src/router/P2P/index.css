@@ -1,0 +1,7 @@
+.border-card {
+    border: 1px solid #E3E7EE;
+}
+
+.quote-p2p span::selection {
+    background-color: white;
+}

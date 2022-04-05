@@ -1,0 +1,41 @@
+
+
+.menu-item-unactive {
+    color: var(--atola-common-text-01);
+}
+
+.menu-item-unactive:hover {
+    color: var(--atola-blue);
+}
+
+.trade-menu-item {
+    position: relative;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 24px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.refresh-button:hover {
+    background-color: var(--atola-bg-01);
+    cursor: pointer;
+}
+
+.arrow_loading {
+    color: var(--atola-common-text-02);
+}
+
+.swap-settings-button:hover {
+    background-color: var(--atola-bg-01);
+    cursor: pointer;
+}
+
+.limit-menu-icon button {
+    background: #dfebff;
+    
+}
+.limit-menu-icon button:hover {
+    background: rgba(47,138,245,.4);
+}

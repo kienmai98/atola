@@ -1,0 +1,28 @@
+.main-service-body {
+    padding: 24px;
+    background-image: url('@/assets/images/1625561209-mencermati-godaan-cryptocurrency.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 480px;
+    grid-column-gap: 40px;
+    width: 100%;
+}
+
+.left-col {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    overflow: hidden;
+}
+
+.right-col {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    background-color: white;
+    border-radius: 1.5rem;
+}
